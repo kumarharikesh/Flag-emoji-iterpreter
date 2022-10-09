@@ -106,7 +106,7 @@ export default function App() {
             color: "rgb(65, 63, 63)",
             borderRadius: "0.5rem",
             border: "1px solid rgb(112, 112, 112)",
-            backgroundColor: "rgba(178, 34, 34, 0.523)"
+            backgroundColor: "rgba(178, 34, 34, 0.523)",
             boxShadow: "0 8px 16px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 19%)"
           }}
         >
