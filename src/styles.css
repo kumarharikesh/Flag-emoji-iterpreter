@@ -27,11 +27,20 @@
     justify-content: center;
     flex-flow: wrap;
   }
-  #meaning {
+ #meaning {
     margin-bottom: 50px;
     font-weight: bold;
     color: #626364
-  }
+ }
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+    #meaning {
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+}
+
   /** Header css **/
   @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
   body {
