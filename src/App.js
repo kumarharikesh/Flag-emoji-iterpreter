@@ -84,8 +84,11 @@ export default function App() {
             padding: "0.7em",
             margin: "10px",
             minWidth: "50%",
+            fontSize: "1rem",
             borderRadius: "0.5rem",
-            fontSize: "1rem"
+            border: "1px solid rgb(112, 112, 112)",
+            boxShadow: "0 8px 16px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 19%)"
+            
           }}
         />
         <button
@@ -97,12 +100,14 @@ export default function App() {
             padding: "0.7em",
             margin: "10px",
             minWidth: "10%",
-            borderRadius: "0.5rem",
             fontSize: "1rem",
             fontWeight: "bold",
             cursor: "pointer",
             color: "rgb(65, 63, 63)",
+            borderRadius: "0.5rem",
+            border: "1px solid rgb(112, 112, 112)",
             backgroundColor: "rgba(178, 34, 34, 0.523)"
+            boxShadow: "0 8px 16px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 19%)"
           }}
         >
           Reset All
