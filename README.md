@@ -4,7 +4,7 @@ Recent update September, 2022<br/>
 Emoji flags are supported on all major platforms except Windows, which displays two-letter country codes instead of emoji flag images. See this library of flag emojis with meaning.
 
 <br/>preview<br/>
-![image](https://user-images.githubusercontent.com/43793294/194764968-5a9ac598-4d8f-4c16-b14a-cbdf95077693.png)
+![image](https://user-images.githubusercontent.com/43793294/194769768-a3c1b6d3-9817-439d-bce0-37a9342758de.png)
 <br/>
 
 # How to Use:
