@@ -62,7 +62,7 @@ export default function App() {
       setMeaning(emojiDictionary2[inputValue]);
     }else {
       setMeaning(
-        "Hi, unable to recognise above flag. Plz select flag as listed below."
+        "Hi, unable to recognise above flag. Plz select flag as shown below."
       );
     }
   }
