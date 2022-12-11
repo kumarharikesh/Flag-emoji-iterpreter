@@ -50,7 +50,19 @@ export default function Footer() {
               href="https://www.linkedin.com/in/harikesh-patel-357171191/"
               target="_blank"
             >
+              {" "}
               Linkedin
+            </a>
+          </li>
+          <span style={{ color: "rgba(205, 200, 200, 0.85)" }}>|</span>
+          <li className="list-item-inline">
+            <a
+              className="link"
+              rel="noreferrer"
+              href="https://www.facebook.com/profile.php?id=100022095913969"
+              target="_blank"
+            >
+              Facebook
             </a>
           </li>
         </ul>
