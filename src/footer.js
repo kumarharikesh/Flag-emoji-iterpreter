@@ -14,8 +14,7 @@ export default function Footer() {
               href="https://github.com/kumarharikesh/"
               target="_blank"
             >
-              {" "}
-              Github{" "}
+              Github
             </a>
           </li>
           <span style={{ color: "rgba(205, 200, 200, 0.85)" }}>|</span>
@@ -26,8 +25,7 @@ export default function Footer() {
               href="https://www.hackerrank.com/Harikesh_Patel/"
               target="_blank"
             >
-              {" "}
-              HackerRank{" "}
+              HackerRank
             </a>
           </li>
           <span style={{ color: "rgba(205, 200, 200, 0.85)" }}>|</span>
@@ -38,8 +36,7 @@ export default function Footer() {
               href="https://twitter.com/Harikes49467657/"
               target="_blank"
             >
-              {" "}
-              Twitter{" "}
+              Twitter
             </a>
           </li>
           <span style={{ color: "rgba(205, 200, 200, 0.85)" }}>|</span>
@@ -50,7 +47,6 @@ export default function Footer() {
               href="https://www.linkedin.com/in/harikesh-patel-357171191/"
               target="_blank"
             >
-              {" "}
               Linkedin
             </a>
           </li>
@@ -66,7 +62,7 @@ export default function Footer() {
             </a>
           </li>
         </ul>
-        <small>© HarryStyle. All rights reserved</small>
+        <small>© HarryStyle. All Rights Reserved.</small>
       </footer>
     </div>
   );
