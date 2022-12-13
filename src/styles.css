@@ -1,120 +1,137 @@
 :root {
-    --primary-color: #7fb73a;
-    --off-white: #e9eef8;
-    --off-black: #eef1d2;
-    --dark-gray: #6b7280;
-  }
-  
-  /** App css **/
-  .App {
-    font-family: sans-serif;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 100px;
-  }
-  .title {
-    padding: 30px;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    text-shadow: 0 1px 0 rgb(15, 15, 15);
-    text-shadow: 0 1px 0 rgb(77, 255, 12);
-    color: rgb(65, 63, 63);
-  }
-  #flexbox {
-    margin: 10px;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    flex-flow: wrap;
-  }
- #meaning {
-    margin-bottom: 50px;
-    font-weight: bold;
-    color: #626364
- }
+--primary-color: #7fb73a;
+--off-white: #e9eef8;
+--off-black: #eef1d2;
+--dark-gray: #6b7280;
+}
+
+/** App css **/
+.App {
+font-family: sans-serif;
+text-align: center;
+padding: 10px;
+margin-bottom: 100px;
+}
+.title {
+padding: 30px;
+margin-bottom: 30px;
+margin-top: 50px;
+text-shadow: 0 1px 0 rgb(15, 15, 15);
+text-shadow: 0 1px 0 rgb(77, 255, 12);
+color: rgb(65, 63, 63);
+}
+#flexbox {
+margin: 10px;
+margin-bottom: 50px;
+display: flex;
+justify-content: center;
+flex-flow: wrap;
+}
+#meaning {
+margin-bottom: 50px;
+font-weight: bold;
+color: #626364
+}
 
 /* Media Query for smaller screens */
 @media (max-width: 600px) {
-    #meaning {
-        font-weight: 400;
-        font-size: 1.5rem;
-    }
+#meaning {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
 }
 
-  /** Header css **/
-  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-  body {
-    font-family: "Montserrat", sans-serif;
-    margin: 0px auto;
-    width: 100%;
-    background-color: var(--off-white);
-  }
-  
-  @import url("https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap");
-  .navigation .nav-brand > a {
-    font-family: "Stalinist One", cursive;
-    font-size: 1.1rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  .navigation {
-      background: -moz-linear-gradient(top, #7fb73a, skyblue);
-      background: -webkit-gradient(linear, left top, left bottom, from(#7fb73a), to(rgb(157, 203, 221)));
-      box-shadow: 0 8px 16px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-      -moz-box-shadow: 0 8px 16px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-      -webkit-box-shadow: 0 8px 16px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-      color: #454545;
-      text-shadow: 0 1px 0 white;
-      padding: 1rem;
-  }
-  
-  .navigation .nav-pills {
-    text-align: right;
-    margin: 0.6rem 1rem;
-  }
-  
-  .navigation .link {
-    color: black;
-  }
-  
-  .navigation .link-active {
-    font-weight: bold;
-  }
-  .list-item-inline {
-    display: inline;
-    padding: 0rem;
-  }
-  /** links **/
-  .link {
-    box-sizing: border-box;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-  }
-  /** Footers css **/
-  .footer {
+/** Header css **/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+body {
+font-family: "Montserrat", sans-serif;
+margin: 0px auto;
+width: 100%;
+background-color: var(--off-white);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap");
+.navigation .nav-brand > a {
+font-family: "Stalinist One", cursive;
+font-size: 1.1rem;
+font-weight: bold;
+text-decoration: none;
+color: inherit;
+}
+
+.navigation {
+  background: -moz-linear-gradient(top, #7fb73a, skyblue);
+  background: -webkit-gradient(linear, left top, left bottom, from(#7fb73a), to(rgb(157, 203, 221)));
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  -moz-box-shadow: 0 8px 16px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  -webkit-box-shadow: 0 8px 16px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  color: #454545;
+  text-shadow: 0 1px 0 white;
+  padding: 1rem;
+}
+
+.navigation .nav-pills {
+  margin: 0.6rem 1rem;
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.navigation .link {
+color: black;
+}
+
+.navigation .link-active {
+font-weight: bold;
+}
+.list-item-inline {
+display: inline;
+padding: 0rem;
+}
+/** links **/
+.link {
+box-sizing: border-box;
+text-decoration: none;
+padding: 0.5rem 1rem;
+}
+
+/** Footers css **/
+
+* {
+    margin: 0;
+}
+
+.footer {
     background-color: #5e832d;
     padding: 2rem 1rem;
+    padding-bottom: 15px;
     text-align: center;
     color: white;
     box-shadow: 0 8px 10px 10px rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-  }
-  
-  .footer .link {
+}
+
+.footer .link {
     color: white;
     transition: 0.3s;
-  }
-  .footer .link:hover {
+    padding: 15px;
+}
+.footer .link:hover {
     color: rgba(255, 255, 255, 0.621);
-  }
-  
-  .footer .footer-header {
+}
+
+.footer .footer-header {
     font-weight: bold;
     font-size: large;
-  }
-  
-  .footer ul {
+    margin-bottom: 10px;
+}
+
+.footer ul {
     padding-inline-start: 0px;
-  }
-  
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
