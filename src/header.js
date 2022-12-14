@@ -19,7 +19,7 @@ export default function Header() {
     
           <li className="list-item-inline">
             <a
-              className="link link-active"
+              className="link"
               href="https://kumarharikesh-portfolio.netlify.app/index.html"
             >
               Home
@@ -28,7 +28,7 @@ export default function Header() {
     
           <li className="list-item-inline">
             <a
-              className="link"
+              className="link link-active"
               href="https://kumarharikesh-portfolio.netlify.app/projects.html"
             >
               Projects
